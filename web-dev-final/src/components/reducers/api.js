@@ -18,7 +18,7 @@ const axiosBaseQuery =
 
 export const apiSlice = createApi({
     reducerPath: 'api',
-    baseQuery: axiosBaseQuery({ baseUrl: 'http://localhost:4000/api' }),
+    baseQuery: axiosBaseQuery({ baseUrl: 'https://steam-game-forum.herokuapp.com/api' }),
     tagTypes: ['Post', 'User'],
     // The "endpoints" represent operations and requests for this server
     refetchOnMountOrArgChange: 5,
